@@ -96,7 +96,7 @@ class SegmentationLosses(nn.Module):
         tar = target
         loss = SegmentationLosses()
         tversky_loss = 1 -loss.tverskyLoss(log,tar)
-        x = torch.pow(tversky_loss, 0.75)
+        x = tversky_loss
         y = loss.CrossEntropyLoss(log, tar)
         x1 = torch.log((torch.exp(x) + torch.exp(-x)) / 2.0) + y
         return x1 / 2
