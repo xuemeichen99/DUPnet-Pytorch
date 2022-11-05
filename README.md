@@ -8,3 +8,6 @@ Link:https://drive.google.com/file/d/1W_N17aHCu8fK1XU8zUEYFkv_cG0yE0OC/view?usp=
 2. The dataset contains 1000 RGB images from the GF-2 satellite with an image size of 492 x 492. We expanded to 8,000 images by rotating, blurring, brightening, darkening, and adding noise. This dataset was partitioned into training, validation, and test sets with a scale of 6:2:2. 
 
 Link:https://drive.google.com/file/d/1oHyzNfHe_F3MeeUQUoni9dh1LFI_N6RS/view?usp=sharing
+
+
+Citation: Liu, Z.; Chen, X.; Zhou, S.; Yu, H.; Guo, J.; Liu, Y. DUPnet: Water Body Segmentation with Dense Block and Multi-Scale Spatial Pyramid Pooling for Remote Sensing Images. Remote Sens. 2022, 14, 5567.
